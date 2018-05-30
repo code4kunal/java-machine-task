@@ -35,6 +35,7 @@ public class Utils {
         System.out.println("NonStrike batsman name: " + nonStrike + "\n");
     }
 
+    //Fetch new batsman from a given lineup
     public static OnStrikeBatsman getNewBatsMan(List<String> battingLineUp) {
         String name = battingLineUp.get(0);
         OnStrikeBatsman names = new OnStrikeBatsman(name, 0);
