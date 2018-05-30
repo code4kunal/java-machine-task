@@ -20,8 +20,8 @@ You have to develop a program which takes an initial odds value for the ongoing 
 4. Process decisions based on event processsing logic. 
 
 ### Execution
-For building JAR
+1.For building JAR
 ```mvn package```
-
-For Executing JAR
+2.Go to Target Folder.
+3.For Executing JAR
 ``` java -cp EbCricketSimulationTask-1.0-SNAPSHOT.jar main.EbCricketSimulationTask```
