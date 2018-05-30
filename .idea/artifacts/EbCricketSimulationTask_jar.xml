@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="EbCricketSimulationTask:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/EbCricketSimulationTask_jar</output-path>
-    <root id="archive" name="EbCricketSimulationTask.jar">
-      <element id="module-output" name="EbCricketSimulationTask" />
-    </root>
-  </artifact>
-</component>
