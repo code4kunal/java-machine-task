@@ -128,12 +128,12 @@ public class CricketSimulator {
             runScoredThisBall = 1;
             this.runsScored = this.runsScored + 1;
             this.extras++;
-        } else if (eventTrigger >= 65 && eventTrigger < 71) {
+        } else if (eventTrigger >= 64 && eventTrigger < 71) {
             event = InvalidBallEvents.NOBALL.getValue();
             runScoredThisBall = 1;
             this.runsScored = this.runsScored + 1;
             this.extras++;
-        } else if (eventTrigger >= 71 && eventTrigger < 73) {
+        } else if (eventTrigger >= 71 && eventTrigger < 72) {
             event = InvalidBallEvents.DEADBALL.getValue();
         }
 
@@ -145,7 +145,7 @@ public class CricketSimulator {
         String event = "";
         OnStrikeBatsman names = new OnStrikeBatsman();
         int runScoredThisBall = 0;
-        if (eventTrigger >= 73 && eventTrigger < 76) {
+        if (eventTrigger >= 72 && eventTrigger < 76) {
             event = OtherRunScoringEvents.LEGBYE.getValue(); //assuming no runs were scored.
             names = Utils.switchStrike(this.onStrike, this.nonStrike);
         } else if (eventTrigger >= 76 && eventTrigger < 80) {
@@ -176,7 +176,7 @@ public class CricketSimulator {
             System.out.println("Strike will be switched...!!");
             currentBatsmanName = getNextBatsManAndSwitchStrike(this.onStrike, this.nonStrike, this.battingLineUp, names);
             this.noOfwickets++;
-        } else if (eventTrigger >= 95 && eventTrigger < 98) {
+        } else if (eventTrigger >= 95 && eventTrigger <= 98) {
             event = OutEvents.LBW.getValue();
             currentBatsmanName = getNextBatsMan(this.onStrike, this.nonStrike, this.battingLineUp, names);
             this.noOfwickets++;
