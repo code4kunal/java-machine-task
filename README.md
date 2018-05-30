@@ -1,7 +1,7 @@
-# java-machine-task
-##Simulating real world scenario with dynamic decision trees. 
+# Java-Machine-Task
+# Simulating real world scenario with dynamic decision trees. 
 
-##Problem Statement:
+# Problem Statement:
 Let a hypothetical ongoing cricket game in which Jaspreet Bumrah is on strike and MS Dhoni is on Non strike. 
 
 Next line up of batting is - 
